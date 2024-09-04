@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/64626/bg-1.png'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/64626/bg-2.png'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/64626/bg-3.png') ;
+    animation: stars 20s infinite linear;
+}
+
+@keyframes stars {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+		opacity: .7;
+    }
+    50% {
+        background-position: 1000px 1000px, 500px 500px, 250px 250px;
+		opacity: .95;
+    }
+    100% {
+        background-position: 2000px 2000px, 1000px 1000px, 500px 500px;
+		opacity: .7;
+    }
+}
+
+.header {
+    background: -webkit-linear-gradient(rgb(70, 135, 255), rgb(196, 48, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}
