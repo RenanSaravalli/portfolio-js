@@ -47,17 +47,17 @@
     "projects": [
       {
         "name": "Home Youtube",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "url": "https://github.com/RenanSaravalli/home-youtube",
         "github": true
       },
       {
         "name": "Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "url": "https://github.com/RenanSaravalli/pokedex",
         "github": true
       }, 
       {
         "name": "Tela Login",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "url": "https://github.com/RenanSaravalli/projeto-login",
         "github": true
       }
     ],
