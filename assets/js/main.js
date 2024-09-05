@@ -34,6 +34,15 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
 }
 
+function updateProjects(profileData) {
+    const projects = document.querySelector('.projects');
+    projects.innerHTML = profileData.projects.map((project) => (
+        `<li>
+            <span class="title ${project.github ? 'github' : ''}">${project.name}</span>
+            <a href="${project.url}" target="_blank">${project.url}</a>
+        </li>`
+    )).join('');
+}
 
 
 (async () => {
@@ -42,4 +51,5 @@ function updateLanguages(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updateProjects(profileData)
 })()
