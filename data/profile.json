@@ -34,12 +34,12 @@
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)"
+      "Inglês (Iniciante)"
     ],
     "projects": [
       {
-        "name": "Home Youtube",
-        "url": "https://github.com/RenanSaravalli/home-youtube",
+        "name": "Flappy Bird Game",
+        "url": "https://flappy-bird-snowy-ten.vercel.app/",
         "github": true
       },
       {
